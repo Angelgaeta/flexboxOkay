@@ -65,6 +65,7 @@ html{
     font-weight: normal;
     max-width: 450px;
     text-shadow: 0 0 10px black;
+    margin-left: 15px;
 }
 
 .okay{
