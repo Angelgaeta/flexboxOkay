@@ -41,13 +41,14 @@ html{
     color: orange;
 }
 
+
 /* section hero ----------------- */
+
 .section-hero{
     height: 100vh;
     background-image: url('../img/resto.jpg');
     background-size: cover;
     background-position: center;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,34 +63,41 @@ html{
 .section-hero h1{
     font-size: 16px;
     font-weight: normal;
-
     max-width: 450px;
     text-shadow: 0 0 10px black;
 }
+
 .okay{
     font-family: Playfair Display, serif;
     font-size: 32px;
 }
 
+
 /* galerie ----------------- */
+
 .galerie{
     height: 40vh;
     display: flex;
 }
+
 .galerie img{
     object-fit: cover;
 }
+
 .photo1{width: 50%;}
 .photo2{width: 20%;}
 .photo3{width: 30%;}
 
+
 /* horaires ----------------- */
+
 .horaires{
     padding: 100px 20px;
     background-image: url('../img/open.jpg');
     background-size: cover;
     background-position: center right;
 }
+
 .horaires h2{
     font-family: Playfair Display, serif;
     font-size: 64px;
@@ -102,9 +110,9 @@ html{
 
 
 /* point de rupture 768px */
+
 @media screen and (max-width:768px){
     .photo2, .photo3{display: none;}
     .photo1{width: 100%;}
-
     .horaires{background-image: url('../img/motif.jpg');}
 }
