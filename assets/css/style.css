@@ -15,11 +15,13 @@ html{
     margin: 0 auto;
 }
 
+
+
 /* header ----------------- */
+
 .header{
     background-color: black;
     padding: 20px;
-
     position: fixed;
     width: 100%;
 }
@@ -40,6 +42,7 @@ html{
 .lien:hover{
     color: orange;
 }
+
 
 
 /* section hero ----------------- */
@@ -74,6 +77,7 @@ html{
 }
 
 
+
 /* galerie ----------------- */
 
 .galerie{
@@ -88,6 +92,7 @@ html{
 .photo1{width: 50%;}
 .photo2{width: 20%;}
 .photo3{width: 30%;}
+
 
 
 /* horaires ----------------- */
@@ -108,6 +113,7 @@ html{
     text-align: right;
     padding-left: 80px;
 }
+
 
 
 /* point de rupture 768px */
